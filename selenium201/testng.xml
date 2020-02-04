@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="selenium201">
+
+<suite-files>
+
+<suite-file path="./testcase/0_Start.xml"/>
+<suite-file path="./testcase/testCase1.xml"/>
+<suite-file path="./testcase/testCase2.xml"/>
+<suite-file path="./testcase/testCase3.xml"/>
+<suite-file path="./testcase/testCase4.xml"/>
+<suite-file path="./testcase/testCase5.xml"/>
+<suite-file path="./testcase/Z_End.xml"/>
+
+</suite-files>
+
+</suite> <!-- Suite -->

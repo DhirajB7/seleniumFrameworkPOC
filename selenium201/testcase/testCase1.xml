@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="REGISTER">
+
+
+	
+
+	<!-- TEST CASE 1 : Navigates to URL and checks if we are in right page -->
+
+	<test name="NAVIGATE To HOME PAGE">
+
+		<classes>
+			<class name="pageObjects.HomePage">
+				<methods>
+					<include name="homePageLogin" />
+					<include name="homePageVerifyHomePage" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+
+
+	<!-- TEST CASE 2:Click on register and fill register details -->
+
+	<test name="CLICK ON REGISTER PAGE AND REGISTER">
+
+		<classes>
+			<class name="pageObjects.HomePage">
+				<methods>
+					<include name="homePageClickOnRegister" />
+				</methods>
+			</class>
+			<class name="pageObjects.RegisterPage">
+				<methods>
+					<include name="registerPageVerifyRegisterPage" />
+					<include name="registerPageFillContactInformation" />
+					<include name="registerPageFillMailingInformation" />
+					<include name="registerPageFillUserInformationAndClickSubmitButton" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!--Test -->
+
+	<!-- TEST CASE 3:Check If Registration Done -->
+
+	<test name="LAND IN REGISTER PAGE AND VERIFY THE SAME">
+
+		<classes>
+			<class name="pageObjects.RegisterPage">
+				<methods>
+					<include name="registerPageVerifyRegistered" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!--Test -->
+
+</suite>

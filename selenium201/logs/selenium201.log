@@ -1,0 +1,187 @@
+2019-02-22 23:40:53.703 [main] INFO  seleniumRelated.SeleniumOperations - method name:getDriverbrowser name chrome
+2019-02-22 23:40:56.732 [main] INFO  seleniumRelated.SeleniumOperations - driver is set
+2019-02-22 23:40:57.931 [main] INFO  seleniumRelated.SeleniumOperations - maximizing the browser
+2019-02-22 23:40:57.949 [main] INFO  seleniumRelated.SeleniumOperations - timeout in seconds is :90
+2019-02-22 23:40:57.965 [main] INFO  seleniumRelated.SeleniumOperations - timeout in seconds is :90
+2019-02-22 23:40:58.224 [main] INFO  utils.ListnersSelenium201 - BEFORE TEST RUN IS STARTED
+2019-02-22 23:40:58.275 [main] INFO  utils.ListnersSelenium201 - BEFORE TEST RUN IS FINISHED
+2019-02-22 23:40:58.276 [main] INFO  utils.ListnersSelenium201 - NAVIGATE To HOME PAGE IS STARTED
+2019-02-22 23:40:58.294 [main] INFO  utils.ListnersSelenium201 - homePageLogin IS STARTING
+2019-02-22 23:40:59.701 [main] INFO  pageObjects.HomePage - logged in to http://newtours.demoaut.com/
+2019-02-22 23:40:59.702 [main] INFO  utils.ListnersSelenium201 - homePageLogin IS PASS
+2019-02-22 23:40:59.703 [main] INFO  utils.ListnersSelenium201 - homePageVerifyHomePage IS STARTING
+2019-02-22 23:40:59.722 [main] INFO  pageObjects.HomePage - Home page title verified and title is : Welcome: Mercury Tours
+2019-02-22 23:40:59.757 [main] INFO  pageObjects.HomePage - Image present only in homepage is verified
+2019-02-22 23:40:59.757 [main] INFO  utils.ListnersSelenium201 - homePageVerifyHomePage IS PASS
+2019-02-22 23:40:59.773 [main] INFO  utils.ListnersSelenium201 - NAVIGATE To HOME PAGE IS FINISHED
+2019-02-22 23:40:59.773 [main] INFO  utils.ListnersSelenium201 - CLICK ON REGISTER PAGE AND REGISTER IS STARTED
+2019-02-22 23:40:59.773 [main] INFO  utils.ListnersSelenium201 - homePageClickOnRegister IS STARTING
+2019-02-22 23:41:00.769 [main] INFO  pageObjects.HomePage - Register link is clicked
+2019-02-22 23:41:00.770 [main] INFO  utils.ListnersSelenium201 - homePageClickOnRegister IS PASS
+2019-02-22 23:41:00.771 [main] INFO  utils.ListnersSelenium201 - registerPageVerifyRegisterPage IS STARTING
+2019-02-22 23:41:00.789 [main] INFO  pageObjects.RegisterPage - Register page title is verified and title is :Register: Mercury Tours
+2019-02-22 23:41:00.789 [main] INFO  utils.ListnersSelenium201 - registerPageVerifyRegisterPage IS PASS
+2019-02-22 23:41:00.790 [main] INFO  utils.ListnersSelenium201 - registerPageFillContactInformation IS STARTING
+2019-02-22 23:41:00.933 [main] INFO  pageObjects.RegisterPage - first name Filled
+2019-02-22 23:41:01.030 [main] INFO  pageObjects.RegisterPage - last name Filled
+2019-02-22 23:41:01.146 [main] INFO  pageObjects.RegisterPage - phone number Filled
+2019-02-22 23:41:01.314 [main] INFO  pageObjects.RegisterPage - email Filled
+2019-02-22 23:41:01.314 [main] INFO  utils.ListnersSelenium201 - registerPageFillContactInformation IS PASS
+2019-02-22 23:41:01.315 [main] INFO  utils.ListnersSelenium201 - registerPageFillMailingInformation IS STARTING
+2019-02-22 23:41:01.510 [main] INFO  pageObjects.RegisterPage - Address line 1 filled
+2019-02-22 23:41:01.690 [main] INFO  pageObjects.RegisterPage - Address line 2 filled
+2019-02-22 23:41:01.805 [main] INFO  pageObjects.RegisterPage - cityName filled
+2019-02-22 23:41:01.897 [main] INFO  pageObjects.RegisterPage - postal code filled
+2019-02-22 23:41:02.018 [main] INFO  pageObjects.RegisterPage - state name selected
+2019-02-22 23:41:02.195 [main] INFO  pageObjects.RegisterPage - country selected from dropdown
+2019-02-22 23:41:02.196 [main] INFO  utils.ListnersSelenium201 - registerPageFillMailingInformation IS PASS
+2019-02-22 23:41:02.203 [main] INFO  utils.ListnersSelenium201 - registerPageFillUserInformationAndClickSubmitButton IS STARTING
+2019-02-22 23:41:02.424 [main] INFO  pageObjects.RegisterPage - user name filled
+2019-02-22 23:41:02.520 [main] INFO  pageObjects.RegisterPage - password filled
+2019-02-22 23:41:02.608 [main] INFO  pageObjects.RegisterPage - confirm password filled
+2019-02-22 23:41:04.746 [main] INFO  pageObjects.RegisterPage - Submit Button clicked
+2019-02-22 23:41:04.747 [main] INFO  utils.ListnersSelenium201 - registerPageFillUserInformationAndClickSubmitButton IS PASS
+2019-02-22 23:41:04.766 [main] INFO  utils.ListnersSelenium201 - CLICK ON REGISTER PAGE AND REGISTER IS FINISHED
+2019-02-22 23:41:04.766 [main] INFO  utils.ListnersSelenium201 - LAND IN REGISTER PAGE AND VERIFY THE SAME IS STARTED
+2019-02-22 23:41:04.767 [main] INFO  utils.ListnersSelenium201 - registerPageVerifyRegistered IS STARTING
+2019-02-22 23:41:04.781 [main] INFO  pageObjects.RegisterPage - Title is verified and it is : http://newtours.demoaut.com/create_account_success.php
+2019-02-22 23:41:04.808 [main] INFO  pageObjects.RegisterPage - First Name is verified
+2019-02-22 23:41:04.837 [main] INFO  pageObjects.RegisterPage - Last Name is verified
+2019-02-22 23:41:04.884 [main] INFO  pageObjects.RegisterPage - User Name is verified
+2019-02-22 23:41:04.884 [main] INFO  utils.ListnersSelenium201 - registerPageVerifyRegistered IS PASS
+2019-02-22 23:41:04.884 [main] INFO  utils.ListnersSelenium201 - LAND IN REGISTER PAGE AND VERIFY THE SAME IS FINISHED
+2019-02-22 23:41:04.884 [main] INFO  utils.ListnersSelenium201 - LOG IN WITH USERNAME AND PASSWORD IS STARTED
+2019-02-22 23:41:04.884 [main] INFO  utils.ListnersSelenium201 - registerPageClickOnSignInLink IS STARTING
+2019-02-22 23:41:05.633 [main] INFO  pageObjects.RegisterPage - clicked on Sign-in link
+2019-02-22 23:41:05.648 [main] INFO  pageObjects.RegisterPage - User is in Sign-in page, and URL is http://newtours.demoaut.com/mercurysignon.php
+2019-02-22 23:41:05.648 [main] INFO  utils.ListnersSelenium201 - registerPageClickOnSignInLink IS PASS
+2019-02-22 23:41:05.649 [main] INFO  utils.ListnersSelenium201 - signOnPageSignOn IS STARTING
+2019-02-22 23:41:05.779 [main] INFO  pageObjects.SignOnPage - user name filled
+2019-02-22 23:41:05.849 [main] INFO  pageObjects.SignOnPage - password filled
+2019-02-22 23:41:07.966 [main] INFO  pageObjects.SignOnPage - log in button clicked
+2019-02-22 23:41:07.966 [main] INFO  utils.ListnersSelenium201 - signOnPageSignOn IS PASS
+2019-02-22 23:41:07.968 [main] INFO  utils.ListnersSelenium201 - reservationPageVerifySignIn IS STARTING
+2019-02-22 23:41:07.983 [main] INFO  pageObjects.ReservationPage - URL verified and ReservationPage URL is : http://newtours.demoaut.com/mercuryreservation.php
+2019-02-22 23:41:07.984 [main] INFO  utils.ListnersSelenium201 - reservationPageVerifySignIn IS PASS
+2019-02-22 23:41:07.994 [main] INFO  utils.ListnersSelenium201 - LOG IN WITH USERNAME AND PASSWORD IS FINISHED
+2019-02-22 23:41:07.995 [main] INFO  utils.ListnersSelenium201 - ONEWAY RESERVATION FILL DETAILS IS STARTED
+2019-02-22 23:41:07.996 [main] INFO  utils.ListnersSelenium201 - reservationPageOnewayTrip IS STARTING
+2019-02-22 23:41:08.073 [main] INFO  pageObjects.ReservationPage - clicking on radio button - one Way 
+2019-02-22 23:41:08.254 [main] INFO  pageObjects.ReservationPage - passengers are selected and count is 2
+2019-02-22 23:41:08.391 [main] INFO  pageObjects.ReservationPage - Departing from : London
+2019-02-22 23:41:08.539 [main] INFO  pageObjects.ReservationPage - Departing month : 4
+2019-02-22 23:41:08.692 [main] INFO  pageObjects.ReservationPage - Departing date : org.openqa.selenium.support.ui.Select@68217d41
+2019-02-22 23:41:08.841 [main] INFO  pageObjects.ReservationPage - Arrving to : New York
+2019-02-22 23:41:08.923 [main] INFO  pageObjects.ReservationPage - First class is selected
+2019-02-22 23:41:09.121 [main] INFO  pageObjects.ReservationPage - Airline Prefernce is Blue Skies Airlines
+2019-02-22 23:41:10.145 [main] INFO  pageObjects.ReservationPage - Continue Button is Clicked
+2019-02-22 23:41:10.146 [main] INFO  utils.ListnersSelenium201 - reservationPageOnewayTrip IS PASS
+2019-02-22 23:41:10.147 [main] INFO  utils.ListnersSelenium201 - flighDetailPageOneWay IS STARTING
+2019-02-22 23:41:10.147 [main] INFO  pageObjects.FlightDetailPage - Blue skies airline 361 will be selected
+2019-02-22 23:41:10.244 [main] INFO  utils.ListnersSelenium201 - flighDetailPageOneWay IS PASS
+2019-02-22 23:41:10.245 [main] INFO  utils.ListnersSelenium201 - flightDetailPageClickOnContinue IS STARTING
+2019-02-22 23:41:11.741 [main] INFO  pageObjects.FlightDetailPage - Continue Button is clicked and will be navigated to next page
+2019-02-22 23:41:11.742 [main] INFO  utils.ListnersSelenium201 - flightDetailPageClickOnContinue IS PASS
+2019-02-22 23:41:11.754 [main] INFO  utils.ListnersSelenium201 - ONEWAY RESERVATION FILL DETAILS IS FINISHED
+2019-02-22 23:41:11.755 [main] INFO  utils.ListnersSelenium201 - VERIFY FLIGHT DETAILS IS STARTED
+2019-02-22 23:41:11.756 [main] INFO  utils.ListnersSelenium201 - pamentPageVerifyPaymentPage IS STARTING
+2019-02-22 23:41:11.764 [main] INFO  pageObjects.PaymentPage - Paymet page is verified 
+2019-02-22 23:41:11.765 [main] INFO  utils.ListnersSelenium201 - pamentPageVerifyPaymentPage IS PASS
+2019-02-22 23:41:11.765 [main] INFO  utils.ListnersSelenium201 - paymentPageVerifySourceDestinationDateNumberOFPassengerPriceOneWay IS STARTING
+2019-02-22 23:41:11.797 [main] INFO  pageObjects.PaymentPage - Source and destination is verified
+2019-02-22 23:41:11.844 [main] INFO  pageObjects.PaymentPage - Date is verified
+2019-02-22 23:41:11.912 [main] INFO  pageObjects.PaymentPage - Passengers Count verified
+2019-02-22 23:41:12.046 [main] INFO  pageObjects.PaymentPage - Price is verified
+2019-02-22 23:41:12.046 [main] INFO  utils.ListnersSelenium201 - paymentPageVerifySourceDestinationDateNumberOFPassengerPriceOneWay IS PASS
+2019-02-22 23:41:12.047 [main] INFO  utils.ListnersSelenium201 - paymentPageFillPassengerDetailCardDetailAndPay IS STARTING
+2019-02-22 23:41:12.048 [main] INFO  pageObjects.PaymentPage - Passenger Count is 2
+2019-02-22 23:41:12.546 [main] INFO  pageObjects.PaymentPage - Credit card selected
+2019-02-22 23:41:12.679 [main] INFO  pageObjects.PaymentPage - Card number entered
+2019-02-22 23:41:13.015 [main] INFO  pageObjects.PaymentPage - card details filled
+2019-02-22 23:41:14.091 [main] INFO  pageObjects.PaymentPage - card details filled
+2019-02-22 23:41:14.146 [main] INFO  pageObjects.PaymentPage - deliver to same address is checked
+2019-02-22 23:41:15.390 [main] INFO  pageObjects.PaymentPage - Secrure Purchase button is clicked
+2019-02-22 23:41:15.390 [main] INFO  utils.ListnersSelenium201 - paymentPageFillPassengerDetailCardDetailAndPay IS PASS
+2019-02-22 23:41:15.397 [main] INFO  utils.ListnersSelenium201 - VERIFY FLIGHT DETAILS IS FINISHED
+2019-02-22 23:41:15.397 [main] INFO  utils.ListnersSelenium201 - VERIFY PAGE , TAKE PRINTOUT AND LOGOUT IS STARTED
+2019-02-22 23:41:15.399 [main] INFO  utils.ListnersSelenium201 - conformationPageVerifyPage IS STARTING
+2019-02-22 23:41:15.409 [main] INFO  pageObjects.ConfirmationPage - Paymet page is verified 
+2019-02-22 23:41:15.410 [main] INFO  utils.ListnersSelenium201 - conformationPageVerifyPage IS PASS
+2019-02-22 23:41:15.410 [main] INFO  utils.ListnersSelenium201 - conformationPagePrintTicket IS STARTING
+2019-02-22 23:41:15.485 [main] INFO  pageObjects.ConfirmationPage - Ticket has been printed
+2019-02-22 23:41:15.485 [main] INFO  utils.ListnersSelenium201 - conformationPagePrintTicket IS PASS
+2019-02-22 23:41:15.486 [main] INFO  utils.ListnersSelenium201 - conformtionPageLogOut IS STARTING
+2019-02-22 23:41:16.598 [main] INFO  utils.ListnersSelenium201 - conformtionPageLogOut IS PASS
+2019-02-22 23:41:16.620 [main] INFO  utils.ListnersSelenium201 - VERIFY PAGE , TAKE PRINTOUT AND LOGOUT IS FINISHED
+2019-02-22 23:41:16.621 [main] INFO  utils.ListnersSelenium201 - LOG IN WITH USERNAME AND PASSWORD IS STARTED
+2019-02-22 23:41:16.622 [main] INFO  utils.ListnersSelenium201 - signOnPageSignOn IS STARTING
+2019-02-22 23:41:16.760 [main] INFO  pageObjects.SignOnPage - user name filled
+2019-02-22 23:41:16.820 [main] INFO  pageObjects.SignOnPage - password filled
+2019-02-22 23:41:18.938 [main] INFO  pageObjects.SignOnPage - log in button clicked
+2019-02-22 23:41:18.939 [main] INFO  utils.ListnersSelenium201 - signOnPageSignOn IS PASS
+2019-02-22 23:41:18.941 [main] INFO  utils.ListnersSelenium201 - reservationPageVerifySignIn IS STARTING
+2019-02-22 23:41:18.957 [main] INFO  pageObjects.ReservationPage - URL verified and ReservationPage URL is : http://newtours.demoaut.com/mercuryreservation.php
+2019-02-22 23:41:18.958 [main] INFO  utils.ListnersSelenium201 - reservationPageVerifySignIn IS PASS
+2019-02-22 23:41:18.973 [main] INFO  utils.ListnersSelenium201 - LOG IN WITH USERNAME AND PASSWORD IS FINISHED
+2019-02-22 23:41:18.973 [main] INFO  utils.ListnersSelenium201 - ROUNDWAY RESERVATION FILL DETAILS IS STARTED
+2019-02-22 23:41:18.974 [main] INFO  utils.ListnersSelenium201 - reservationPageRoundwayTrip IS STARTING
+2019-02-22 23:41:19.047 [main] INFO  pageObjects.ReservationPage - clicking on radio button - round trip 
+2019-02-22 23:41:19.183 [main] INFO  pageObjects.ReservationPage - passengers are selected and count is 2
+2019-02-22 23:41:19.309 [main] INFO  pageObjects.ReservationPage - Departing from : London
+2019-02-22 23:41:19.438 [main] INFO  pageObjects.ReservationPage - Departing month : 4
+2019-02-22 23:41:19.570 [main] INFO  pageObjects.ReservationPage - Departing date : org.openqa.selenium.support.ui.Select@5e7c141d
+2019-02-22 23:41:19.699 [main] INFO  pageObjects.ReservationPage - Arrving to : New York
+2019-02-22 23:41:19.821 [main] INFO  pageObjects.ReservationPage - Arrving month : 12
+2019-02-22 23:41:19.958 [main] INFO  pageObjects.ReservationPage - Arrving day : 1
+2019-02-22 23:41:20.045 [main] INFO  pageObjects.ReservationPage - First class is selected
+2019-02-22 23:41:20.298 [main] INFO  pageObjects.ReservationPage - Airline Prefernce is Blue Skies Airlines
+2019-02-22 23:41:21.232 [main] INFO  pageObjects.ReservationPage - Continue Button is Clicked
+2019-02-22 23:41:21.232 [main] INFO  utils.ListnersSelenium201 - reservationPageRoundwayTrip IS PASS
+2019-02-22 23:41:21.233 [main] INFO  utils.ListnersSelenium201 - flighDetailPageOneWay IS STARTING
+2019-02-22 23:41:21.235 [main] INFO  pageObjects.FlightDetailPage - Blue skies airline 361 will be selected
+2019-02-22 23:41:21.298 [main] INFO  utils.ListnersSelenium201 - flighDetailPageOneWay IS PASS
+2019-02-22 23:41:21.299 [main] INFO  utils.ListnersSelenium201 - flighDetailPageOtherWay IS STARTING
+2019-02-22 23:41:21.300 [main] INFO  pageObjects.FlightDetailPage - Blue skies airline 631 will be selected
+2019-02-22 23:41:21.376 [main] INFO  utils.ListnersSelenium201 - flighDetailPageOtherWay IS PASS
+2019-02-22 23:41:21.376 [main] INFO  utils.ListnersSelenium201 - flightDetailPageClickOnContinue IS STARTING
+2019-02-22 23:41:22.855 [main] INFO  pageObjects.FlightDetailPage - Continue Button is clicked and will be navigated to next page
+2019-02-22 23:41:22.856 [main] INFO  utils.ListnersSelenium201 - flightDetailPageClickOnContinue IS PASS
+2019-02-22 23:41:22.866 [main] INFO  utils.ListnersSelenium201 - ROUNDWAY RESERVATION FILL DETAILS IS FINISHED
+2019-02-22 23:41:22.866 [main] INFO  utils.ListnersSelenium201 - VERIFY FLIGHT DETAILS IS STARTED
+2019-02-22 23:41:22.867 [main] INFO  utils.ListnersSelenium201 - pamentPageVerifyPaymentPage IS STARTING
+2019-02-22 23:41:22.873 [main] INFO  pageObjects.PaymentPage - Paymet page is verified 
+2019-02-22 23:41:22.873 [main] INFO  utils.ListnersSelenium201 - pamentPageVerifyPaymentPage IS PASS
+2019-02-22 23:41:22.875 [main] INFO  utils.ListnersSelenium201 - paymentPageVerifySourceDestinationDateNumberOFPassengerPriceRoundWay IS STARTING
+2019-02-22 23:41:22.902 [main] INFO  pageObjects.PaymentPage - one side : Source and destination is verified
+2019-02-22 23:41:22.933 [main] INFO  pageObjects.PaymentPage - one side : Date is verified
+2019-02-22 23:41:22.995 [main] INFO  pageObjects.PaymentPage - round side : Source and destination is verified
+2019-02-22 23:41:23.049 [main] INFO  pageObjects.PaymentPage - round side : Date is verified
+2019-02-22 23:41:23.097 [main] INFO  pageObjects.PaymentPage - Passengers Count verified
+2019-02-22 23:41:23.267 [main] INFO  pageObjects.PaymentPage - Price is verified
+2019-02-22 23:41:23.267 [main] INFO  utils.ListnersSelenium201 - paymentPageVerifySourceDestinationDateNumberOFPassengerPriceRoundWay IS PASS
+2019-02-22 23:41:23.268 [main] INFO  utils.ListnersSelenium201 - paymentPageFillPassengerDetailCardDetailAndPay IS STARTING
+2019-02-22 23:41:23.268 [main] INFO  pageObjects.PaymentPage - Passenger Count is 2
+2019-02-22 23:41:23.787 [main] INFO  pageObjects.PaymentPage - Credit card selected
+2019-02-22 23:41:23.934 [main] INFO  pageObjects.PaymentPage - Card number entered
+2019-02-22 23:41:24.209 [main] INFO  pageObjects.PaymentPage - card details filled
+2019-02-22 23:41:25.332 [main] INFO  pageObjects.PaymentPage - card details filled
+2019-02-22 23:41:25.396 [main] INFO  pageObjects.PaymentPage - deliver to same address is checked
+2019-02-22 23:41:26.651 [main] INFO  pageObjects.PaymentPage - Secrure Purchase button is clicked
+2019-02-22 23:41:26.652 [main] INFO  utils.ListnersSelenium201 - paymentPageFillPassengerDetailCardDetailAndPay IS PASS
+2019-02-22 23:41:26.670 [main] INFO  utils.ListnersSelenium201 - VERIFY FLIGHT DETAILS IS FINISHED
+2019-02-22 23:41:26.671 [main] INFO  utils.ListnersSelenium201 - VERIFY PAGE , TAKE PRINTOUT AND LOGOUT IS STARTED
+2019-02-22 23:41:26.672 [main] INFO  utils.ListnersSelenium201 - conformationPageVerifyPage IS STARTING
+2019-02-22 23:41:26.681 [main] INFO  pageObjects.ConfirmationPage - Paymet page is verified 
+2019-02-22 23:41:26.681 [main] INFO  utils.ListnersSelenium201 - conformationPageVerifyPage IS PASS
+2019-02-22 23:41:26.682 [main] INFO  utils.ListnersSelenium201 - conformationPagePrintTicket IS STARTING
+2019-02-22 23:41:26.760 [main] INFO  pageObjects.ConfirmationPage - Ticket has been printed
+2019-02-22 23:41:26.760 [main] INFO  utils.ListnersSelenium201 - conformationPagePrintTicket IS PASS
+2019-02-22 23:41:26.760 [main] INFO  utils.ListnersSelenium201 - conformtionPageLogOut IS STARTING
+2019-02-22 23:41:27.828 [main] INFO  utils.ListnersSelenium201 - conformtionPageLogOut IS PASS
+2019-02-22 23:41:27.834 [main] INFO  utils.ListnersSelenium201 - VERIFY PAGE , TAKE PRINTOUT AND LOGOUT IS FINISHED
+2019-02-22 23:41:27.834 [main] INFO  utils.ListnersSelenium201 - AFTER TEST RUN IS STARTED
+2019-02-22 23:41:27.844 [main] INFO  utils.ListnersSelenium201 - AFTER TEST RUN IS FINISHED
+2019-02-22 23:41:28.623 [main] INFO  CustomeOutputRelated.EmailRelated - mail activity started
+2019-02-22 23:41:28.623 [main] INFO  CustomeOutputRelated.EmailRelated - path is :C:\Users\M1027381\Desktop\selenium201Assigsment\selenium201\output//2019_02_22 23_40_58 emailable report.html
+2019-02-22 23:41:28.686 [main] INFO  CustomeOutputRelated.EmailRelated - attachment attached
+2019-02-22 23:41:28.886 [main] INFO  CustomeOutputRelated.EmailRelated - email sent

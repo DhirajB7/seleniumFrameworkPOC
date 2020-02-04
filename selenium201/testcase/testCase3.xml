@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ONEWAY TICKET">
+
+	<test name="ONEWAY RESERVATION FILL DETAILS">
+
+		<classes>
+		
+			<class name="pageObjects.ReservationPage">
+				<methods>
+					<include name="reservationPageOnewayTrip" />
+				</methods>
+			</class>
+			
+			<class name="pageObjects.FlightDetailPage">
+				<methods>
+					<include name="flighDetailPageOneWay" />
+					<include name="flightDetailPageClickOnContinue"/>
+				</methods>
+			</class>
+			
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="VERIFY FLIGHT DETAILS">
+
+		<classes>
+		
+			<class name="pageObjects.PaymentPage">
+				<methods>
+					<include name="pamentPageVerifyPaymentPage"/>
+					<include name="paymentPageVerifySourceDestinationDateNumberOFPassengerPriceOneWay" />
+					<include name="paymentPageFillPassengerDetailCardDetailAndPay"/>
+				</methods>
+			</class>
+			
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="VERIFY PAGE , TAKE PRINTOUT AND LOGOUT">
+
+		<classes>
+		
+			<class name="pageObjects.ConfirmationPage">
+				<methods>
+					<include name="conformationPageVerifyPage"/>
+					<include name="conformationPagePrintTicket"/>
+					<include name="conformtionPageLogOut"/>
+				</methods>
+			</class>
+			
+		</classes>
+	</test> <!-- Test -->
+	
+	
+</suite>
