@@ -6,4 +6,4 @@
 *  As POM is used, start with classes in src/test/Pom package
 *  Controlling of TestCase by XML.
 *  Multi xml can be used if required
-
+*  .idea, target, test-output are removed(auto generated in next run).
